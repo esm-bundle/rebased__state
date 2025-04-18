@@ -51,11 +51,11 @@ importers:
         specifier: 4.1.1
         version: 4.1.1(prettier@3.5.3)
       release-it:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: 19.0.1
+        version: 19.0.1
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@19.0.0)
+        version: 3.0.0(release-it@19.0.1)
       rollup:
         specifier: 4.40.0
         version: 4.40.0
@@ -1480,8 +1480,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@19.0.0:
-    resolution: {integrity: sha512-gbhYQ9gT8LvnXGgW97fvtFAZb57LwaOnwga+LxpWkkMudIvdaIY8K5/fDeE8AUW5N3HsfmLSqAxt0yXsUVVfdg==}
+  release-it@19.0.1:
+    resolution: {integrity: sha512-n+ZgPmyaEigl+oZguu4fwxIGGE+ydiFSzxuUZWDsQ822qbaCah5CC4EwSDqMT/bRT+ekYnb2Qyf2nV8vjK+Xdg==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
 
@@ -3157,11 +3157,11 @@ snapshots:
 
   readdirp@4.1.2: {}
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@19.0.0):
+  release-it-plugin-esm-bundle@3.0.0(release-it@19.0.1):
     dependencies:
-      release-it: 19.0.0
+      release-it: 19.0.1
 
-  release-it@19.0.0:
+  release-it@19.0.1:
     dependencies:
       '@nodeutils/defaults-deep': 1.1.0
       '@octokit/rest': 21.1.1
