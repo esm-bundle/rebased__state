@@ -24,20 +24,20 @@ importers:
         specifier: 6.2.2
         version: 6.2.2
       concurrently:
-        specifier: 10.0.1
-        version: 10.0.1
+        specifier: 10.0.3
+        version: 10.0.3
       husky:
         specifier: 9.1.7
         version: 9.1.7
       karma:
         specifier: 6.4.4
-        version: 6.4.4
+        version: 6.4.4(supports-color@8.1.1)
       karma-firefox-launcher:
         specifier: 2.1.3
         version: 2.1.3
       karma-jasmine:
         specifier: 5.1.0
-        version: 5.1.0(karma@6.4.4)
+        version: 5.1.0(karma@6.4.4(supports-color@8.1.1))
       mocha:
         specifier: 11.7.6
         version: 11.7.6
@@ -668,8 +668,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@10.0.1:
-    resolution: {integrity: sha512-vN61cP9COzctyhBqKUOh9YHqU70hYPnaHqNpXdBzM9PcwIpfPAvNK06hjm4gEJEGuvy4GBairO6uU32+FKpS4g==}
+  concurrently@10.0.3:
+    resolution: {integrity: sha512-hc3LH4UaKWd/bbyDK/IGVa4RB6PtQ3CUYwtrkzqHn+wIG3Hr5fhpRlk0L/gCa8ZE1L/Ufj50Zho69cI5w8SQBA==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -2334,7 +2334,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@10.0.1:
+  concurrently@10.0.3:
     dependencies:
       chalk: 5.6.2
       rxjs: 7.8.2
@@ -2446,7 +2446,7 @@ snapshots:
 
   engine.io-parser@5.2.2: {}
 
-  engine.io@6.5.4:
+  engine.io@6.5.4(supports-color@8.1.1):
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.12
@@ -2771,12 +2771,12 @@ snapshots:
       is-wsl: 2.2.0
       which: 3.0.1
 
-  karma-jasmine@5.1.0(karma@6.4.4):
+  karma-jasmine@5.1.0(karma@6.4.4(supports-color@8.1.1)):
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.4.4
+      karma: 6.4.4(supports-color@8.1.1)
 
-  karma@6.4.4:
+  karma@6.4.4(supports-color@8.1.1):
     dependencies:
       '@colors/colors': 1.5.0
       body-parser: 1.19.0
@@ -2790,14 +2790,14 @@ snapshots:
       http-proxy: 1.18.1
       isbinaryfile: 4.0.8
       lodash: 4.17.21
-      log4js: 6.4.1
+      log4js: 6.4.1(supports-color@8.1.1)
       mime: 2.5.2
       minimatch: 3.0.4
       mkdirp: 0.5.5
       qjobs: 1.2.0
       range-parser: 1.2.1
       rimraf: 3.0.2
-      socket.io: 4.7.4
+      socket.io: 4.7.4(supports-color@8.1.1)
       source-map: 0.6.1
       tmp: 0.2.1
       ua-parser-js: 0.7.30
@@ -2836,13 +2836,13 @@ snapshots:
       is-unicode-supported: 2.1.0
       yoctocolors: 2.1.2
 
-  log4js@6.4.1:
+  log4js@6.4.1(supports-color@8.1.1):
     dependencies:
       date-format: 4.0.3
       debug: 4.3.5(supports-color@8.1.1)
       flatted: 3.2.5
       rfdc: 1.3.0
-      streamroller: 3.0.2
+      streamroller: 3.0.2(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3248,7 +3248,7 @@ snapshots:
 
   smob@1.4.1: {}
 
-  socket.io-adapter@2.5.4:
+  socket.io-adapter@2.5.4(supports-color@8.1.1):
     dependencies:
       debug: 4.3.5(supports-color@8.1.1)
       ws: 8.11.0
@@ -3257,22 +3257,22 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  socket.io-parser@4.2.4:
+  socket.io-parser@4.2.4(supports-color@8.1.1):
     dependencies:
       '@socket.io/component-emitter': 3.1.0
       debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
-  socket.io@4.7.4:
+  socket.io@4.7.4(supports-color@8.1.1):
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
       cors: 2.8.5
       debug: 4.3.5(supports-color@8.1.1)
-      engine.io: 6.5.4
-      socket.io-adapter: 2.5.4
-      socket.io-parser: 4.2.4
+      engine.io: 6.5.4(supports-color@8.1.1)
+      socket.io-adapter: 2.5.4(supports-color@8.1.1)
+      socket.io-parser: 4.2.4(supports-color@8.1.1)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -3302,7 +3302,7 @@ snapshots:
 
   stdin-discarder@0.3.2: {}
 
-  streamroller@3.0.2:
+  streamroller@3.0.2(supports-color@8.1.1):
     dependencies:
       date-format: 4.0.3
       debug: 4.3.5(supports-color@8.1.1)
